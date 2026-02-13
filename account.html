@@ -71,6 +71,19 @@ a {color:#ffb6d9;text-decoration:none;}
         <input type="text" placeholder="Username" required>
         <input type="email" placeholder="Email" required>
         <input type="password" placeholder="Password" required>
+      
+        <div class="input-box">
+                   <label>Date of Birth</label>
+                   <input type="date" required>
+  </div>
+
+  <div class="input-box">
+        <label>Gender</label>
+        <div class="gender-box">
+            <label><input type="radio" name="gender"> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+        </div>
+
         <button type="submit">Register</button>
     </form>
     <div class="switch" onclick="showLogin()">Already have account? Login</div>
@@ -94,3 +107,4 @@ function showLogin(){
 
 </body>
 </html>
+
